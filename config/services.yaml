@@ -21,4 +21,4 @@ services:
 #        tags: ['controller.service_arguments']
 
     Domain\:
-        resource: '../domain/src/'-
+        resource: '../domain/src/'
