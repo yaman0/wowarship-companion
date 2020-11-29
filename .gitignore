@@ -17,3 +17,6 @@
 
 ## remove IDE file
 .idea/
+
+## Os specification
+.DS_Store
