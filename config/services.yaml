@@ -16,9 +16,9 @@ services:
     App\:
         resource: '../src/'
 
-#    App\Infrastructure\Controller\:
-#        resource: '../src/Infrastructure/Controller/'
-#        tags: ['controller.service_arguments']
+    App\Infrastructure\Controller\:
+        resource: '../src/Infrastructure/Controller/'
+        tags: ['controller.service_arguments']
 
     Domain\:
         resource: '../domain/src/'

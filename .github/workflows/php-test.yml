@@ -1,7 +1,8 @@
 name: Testing
 on:
   push:
-    branches: '**'
+    branches-ignore:
+      - main
 
 jobs:
   test:
@@ -26,4 +27,3 @@ jobs:
 
       - name: Run test
         run: php bin/phpunit
-        
