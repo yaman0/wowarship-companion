@@ -1,0 +1,29 @@
+@startuml
+
+package Domain {
+    package DayStat {
+        package Entity {
+            class DayRange {
+                +DateTime start;
+                +DateTime end;
+                toArrayString(): string[]
+                {static} buildFromEndAndRange(DateTime, int): self
+            }
+            hide Stat methods
+            class Stat {
+                +int battles
+                +int survived_battles
+                +int wins
+                +int xp
+                +int frags
+                +Datetime day
+            }
+        }
+
+        package UseCase {
+            package GetDaysStats <<Rectangle>> {
+            }
+        }
+    }
+}
+@enduml
