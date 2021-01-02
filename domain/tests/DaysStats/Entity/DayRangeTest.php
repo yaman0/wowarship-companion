@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Domain\Tests\DaysStats\Entity;
 
-use Domain\DaysStats\Entity\DayRange;
+use Domain\Stat\Entity\DayRange;
 use PHPUnit\Framework\TestCase;
 
 /**

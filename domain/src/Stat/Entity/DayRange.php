@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Domain\DaysStats\Entity;
+namespace Domain\Stat\Entity;
 
 use DateInterval;
 use DateTime;
